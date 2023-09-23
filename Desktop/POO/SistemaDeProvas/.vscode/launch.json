@@ -1,0 +1,36 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Hellofx",
+            "request": "launch",
+            "mainClass": "STEPS_BD/view.Hellofx",
+            "projectName": "SistemaDeProvas_d97cdd8",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Principal",
+            "request": "launch",
+            "mainClass": "STEPS_BD/connection.Principal",
+            "projectName": "SistemaDeProvas_d97cdd8"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "STEPS_BD/entities.Main",
+            "projectName": "SistemaDeProvas_d97cdd8"
+        }
+    ]
+}
